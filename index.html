@@ -164,7 +164,7 @@
                                 <img class="w-100 m-auto" src="./assets/img/qianshou2.jpg" alt="">
                             </div>
                             <div class="mt-2 ms-2">
-                                <h6 class="mb-0">06.10.2022</h6>
+                                <h6 class="mb-0">02.11.2023</h6>
                                 <p class="text-secondary text-sm">IN XI JIE</p>
                             </div>
                         </a>
@@ -260,9 +260,15 @@
     });
 </script>
 
-<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
-    src="assets/audio/bgm.mp3">
-    
-</audio>
+<div class="gap-example border px-4 py-5 border-radius-sm">
+  <audio>
+    <source src="assets/audio/bgm.mp3" type="audio/mpeg">
+  </audio>
+</div>
 
+<script src="assets/js/plugins/green-audio-player.min.js"></script>
+<script>
+  new GreenAudioPlayer('.gap-example');
+</script>
+    
 </body></html>
