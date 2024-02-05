@@ -13,13 +13,7 @@
     <link id="pagestyle" href="./assets/css/soft-design-system-pro.min.css?v=1.0.9" rel="stylesheet">
     <link href="./assets/css/calendar.css" rel="stylesheet">
     <link href="./assets/css/modification.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <style>
-    .slick-slide img {
-        width: 100;
-        height: auto;
-    }
-    </style>
+    
 </head>
 <body class="presentation-page">
 
@@ -181,18 +175,7 @@
             </div>
         </div>
     
-    <div class="big-slider">
-        <div><img src=./assets/img/1.jpg" /></div>
-        <div><img src="./assets/img/qianshou1.jpg" /></div>
-        <div><img src="./assets/img/qianshou2.jpg" /></div>
-        <!-- Add more images as needed -->
-    </div>
-    <div class="small-slider">
-        <div><img src=./assets/img/1.jpg" /></div>
-        <div><img src="./assets/img/qianshou1.jpg" /></div>
-        <div><img src="./assets/img/qianshou2.jpg" /></div>
-        <!-- Add more images as needed -->
-    </div>
+
 
 </section>
 
@@ -296,25 +279,5 @@
   new GreenAudioPlayer('.gap-example');
 </script>
     
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script>
-$(document).ready(function(){
-  $('.big-slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.small-slider'
-  });
-  $('.small-slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.big-slider',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
-  });
-});
-</script>
+
 </body></html>
