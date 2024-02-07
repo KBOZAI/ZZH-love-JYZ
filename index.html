@@ -312,5 +312,12 @@
   new GreenAudioPlayer('.gap-example');
 </script>
     
-
+<script>
+window.onload = function() {
+    document.body.addEventListener('click', function () {
+        var audioElement = document.querySelector('audio');
+        audioElement.play();
+    });
+}
+</script>
 </body></html>
